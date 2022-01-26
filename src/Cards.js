@@ -15,7 +15,6 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
   flex: 0.75;
-  height: 100%;
   grid-column-gap: 3%;
   @media (max-width: 1252px) {
     margin-right: 30px;

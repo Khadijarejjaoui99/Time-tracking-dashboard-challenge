@@ -32,9 +32,7 @@ const Container = styled.div`
   background-color: white;
   margin-bottom: 25px;
   border-radius: 15px;
- 
-  border-radius: 15px;
- 
+
 `;
 const CardBackground = styled.div`
   height: 60px;

@@ -14,7 +14,7 @@ function Dashboard({ items, filter }) {
 export default Dashboard;
 const Container = styled.div`
   margin-left: 20px;
-  height: 68%;
+  height:500px;
   width: 1440px;
   // background-color: white;
   display: flex;

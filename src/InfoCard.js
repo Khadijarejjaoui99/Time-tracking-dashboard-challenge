@@ -31,7 +31,7 @@ const Container = styled.div`
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
   margin-right: 20px;
-  height: 100%;
+  height: 535px;
   @media (max-width: 1252px) {
     margin-right: 30px;
     margin-top: -100px;
@@ -83,6 +83,11 @@ const UserName = styled.div`
   @media (max-width: 600px) {
     h1 {
       font-size: 30px;
+    }
+  }
+  @media (max-width: 417px) {
+    h1 {
+      font-size: 15px;
     }
   }
 `;
