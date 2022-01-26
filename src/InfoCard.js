@@ -27,7 +27,7 @@ export default InfoCard;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 0.23;
+  flex: 0.2;
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
   margin-right: 20px;
