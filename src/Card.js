@@ -18,7 +18,8 @@ function Card({ item }) {
 
         <CartCurrentHours>{item.current}hrs</CartCurrentHours>
         <CartPerviousHours>
-          last {item.previousTime  ? item.previousTime: "week"} - {item.previous}hrs
+          last {item.previousTime ? item.previousTime : "week"} -{" "}
+          {item.previous}hrs
         </CartPerviousHours>
       </CardInfo>
     </Container>
@@ -32,7 +33,6 @@ const Container = styled.div`
   background-color: white;
   margin-bottom: 25px;
   border-radius: 15px;
-
 `;
 const CardBackground = styled.div`
   height: 60px;
@@ -86,7 +86,7 @@ const CartCurrentHours = styled.h1`
   font-family: Rubik;
   font-weight: 300;
 `;
-const CartPerviousHours = styled.h4`
+const CartPerviousHours = styled.span`
   font-size: 18px;
   color: hsl(236, 100%, 87%);
   font-family: Rubik;
