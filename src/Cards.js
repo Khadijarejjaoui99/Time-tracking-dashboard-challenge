@@ -16,7 +16,7 @@ const Container = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
   flex: 0.75;
   grid-column-gap: 3%;
-  @media (max-width: 1540px) {
-    margin-top: 20px;
+  @media (max-width: 1252px) {
+    margin-right: 30px;
   }
 `;

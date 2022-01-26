@@ -32,10 +32,9 @@ const Container = styled.div`
   background-color: white;
   margin-bottom: 25px;
   border-radius: 15px;
-  @media (max-width: 1100px) {
-    margin-left: 0px;
-    margin-top: 20px;
-  }
+ 
+  border-radius: 15px;
+ 
 `;
 const CardBackground = styled.div`
   height: 60px;

@@ -31,10 +31,11 @@ const Container = styled.div`
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
   margin-right: 20px;
-
-  @media (max-width: 1540px) {
-    margin-top: 20px;
-    margin-bottom: 22px;
+  height: 100%;
+  @media (max-width: 1252px) {
+    margin-right: 30px;
+    margin-top: -100px;
+    margin-bottom: 20px;
   }
 `;
 const InfoCardTop = styled.div`
@@ -42,10 +43,6 @@ const InfoCardTop = styled.div`
   background-color: hsl(246, 80%, 60%);
   border-radius: 15px;
   padding: 30px;
-
-  @media (max-width: 1209px) {
-    padding-left: -10px;
-  }
 `;
 const ImgContainer = styled.div`
   width: 80px;
@@ -72,18 +69,18 @@ const UserName = styled.div`
     font-weight: 300;
     font-size: 50px;
   }
-  @media (max-width: 1209px) {
-    padding-top: 50px;
-
-    h1 {
-      font-size: 45px;
-    }
-    margin-left: -10px;
+  @media (max-width: 1252px) {
+    margin-top: -80px;
+    margin-left: 120px;
+    width: 400px;
   }
-  @media (max-width: 1100px) {
-    margin-top: -120px;
-    margin-left: 100px;
-    width: 250px;
+  @media (max-width: 1000px) {
+    margin-top: -70px;
+    h1 {
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 600px) {
     h1 {
       font-size: 30px;
     }
@@ -96,7 +93,7 @@ const InfoCardBottom = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1252px) {
     flex-direction: row;
     justify-content: space-between;
     padding-right: 20px;
@@ -105,7 +102,7 @@ const InfoCardBottom = styled.div`
   button {
     all: unset;
     cursor: pointer;
-    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 18px;
     color: hsl(235, 45%, 61%);
     font-family: Rubik;
@@ -117,8 +114,7 @@ const InfoCardBottom = styled.div`
     :focus {
       color: white;
     }
-    @media (max-width: 1540px) {
-      padding-top: 20px;
-    }
+
+    padding-top: 20px;
   }
 `;

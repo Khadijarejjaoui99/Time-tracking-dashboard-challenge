@@ -13,11 +13,12 @@ function Dashboard({ items, filter }) {
 
 export default Dashboard;
 const Container = styled.div`
+  margin-left: 20px;
   height: 68%;
-  width: 80%;
+  width: 1440px;
   // background-color: white;
   display: flex;
-  @media (max-width: 1100px) {
+  @media (max-width: 1252px) {
     flex-direction: column;
   }
 `;
